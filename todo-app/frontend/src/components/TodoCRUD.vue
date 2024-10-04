@@ -14,7 +14,7 @@
       </div>
       <select v-model="newTodo.status">
         <option value="Not Done">Not Done</option>
-        <option value="In Progress">In Progress</option>
+        <option value="Hold">In Progress</option>
         <option value="Done">Done</option>
       </select>
       <button type="submit">Add Todo</button>
